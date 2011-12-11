@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/listmenu_preferences"
+    	android:icon="@drawable/settings"
+		android:title="@string/list_menu_preferences"/>
+    <item 
+    	android:id="@+id/listmenu_refresh"
+    	android:icon="@drawable/refresh"
+    	android:title="@string/list_menu_refresh"/>
+    <item
+    	android:id="@+id/listmenu_tags"
+    	android:icon="@drawable/tag"
+    	android:title="@string/list_menu_tags"/>
+</menu>

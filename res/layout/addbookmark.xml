@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:shrinkColumns="1">
+
+	<TableRow>
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:text="@string/addbookmark_url_label"/>
+		<EditText 
+			android:id="@+id/addbookmark_url"
+       		android:singleLine="true"
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:text="@string/addbookmark_description_label"/>
+		<EditText 
+			android:id="@+id/addbookmark_description"
+       		android:singleLine="true"
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:text="@string/addbookmark_tags_label"/>
+		<EditText 
+			android:id="@+id/addbookmark_tags"
+       		android:singleLine="true"
+       		android:layout_width="fill_parent"
+       		android:layout_height="wrap_content"/>
+	</TableRow>
+
+	<TableRow>
+		<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:text="@string/addbookmark_status_label"/>
+	    <Spinner 
+	        android:id="@+id/addbookmark_status"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:prompt="@string/addbookmark_status_prompt"/>
+	</TableRow>
+	
+	<TableRow>
+	</TableRow>
+
+s	<TableRow>
+		<Button xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/addbookmark_btnsave"
+	        android:text="@string/addbookmark_savebutton_label"
+	        android:layout_span="2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+	</TableRow>
+
+</TableLayout>
+	

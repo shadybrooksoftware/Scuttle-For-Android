@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scuttle for Android</string>
+    
+    <string name="list_menu_preferences">Settings</string>
+    <string name="list_menu_refresh">Refresh</string>
+    <string name="list_menu_tags">Tags</string>
+    <string name="list_menu_search">Search</string>
+
+    <string name="preferences_label">Scuttle Preferences</string>
+    <string name="preference_url">url</string>
+    <string name="preference_username">username</string>
+    <string name="preference_password">password</string>
+
+	<string name="addbookmark_label">Scuttle - Add Bookmark</string>
+	<string name="addbookmark_url_label">URL:</string>
+	<string name="addbookmark_description_label">Description:</string>
+	<string name="addbookmark_tags_label">Tags:</string>
+	<string name="addbookmark_savebutton_label">Add Bookmark</string>
+	<string name="addbookmark_status_label">Privacy:</string>
+	<string name="addbookmark_status_prompt">Select Privacy Status</string>
+	<string-array name="status_options">
+		<item>Public</item>
+		<item>Shared with Watched List</item>
+		<item>Private</item>
+	</string-array>
+
+	<string name="tagslist_notags">No Tag (show all bookmarks)</string>
+</resources>

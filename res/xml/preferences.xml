@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference
+		android:key="url"
+		android:title="Scuttle URL"
+		android:summary="The base URL to access Scuttle"/>
+	<EditTextPreference
+		android:key="username"
+		android:title="Scuttle Username"
+		android:summary="The username you use to login to Scuttle"/>
+	<EditTextPreference
+		android:key="password"
+		android:title="Scuttle Password"
+		android:summary="The password you use to login to Scuttle"
+		android:password="true"/>
+</PreferenceScreen>
