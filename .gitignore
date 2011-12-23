@@ -1,6 +1,5 @@
 .settings/*
 bin/*
-!bin/ScuttleBookmarkList.apk
 .classpath
 .project
 default.properties
